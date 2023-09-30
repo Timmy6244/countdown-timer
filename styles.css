@@ -1,0 +1,72 @@
+ body{
+ 	font-family: arial;
+
+ }
+ .center{
+ 	width: 90vw;
+  	margin: 0 auto;
+  	max-width: 40rem;
+  	margin-top: 5rem;
+  	text-align: center;
+ }
+ h3{
+ 	text-transform: uppercase;
+ 	letter-spacing: 2px;
+ 	font-size: 1.5rem;
+
+ }
+ .dummy-form{
+/* 	padding-left: 2rem;*/
+ 	padding-top: 1.2rem;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	gap: 0.5rem;
+ }
+ input[type="number"] {
+ 	width: 4rem;
+ 	height: 2rem;
+ 	font-weight: 600;
+ 	background: #ffa586;
+ 	border-radius: 0.45rem;
+ 	color: white;
+ }
+ label{
+ 	letter-spacing: 2px;
+ 	font-size: 1.1rem;
+ }
+ label::after{
+ 	content: ":";
+ }
+
+ button{
+ 	text-transform: uppercase;
+ 	background: #0f969c;
+ 	height: 2.25rem;
+ 	width: 8rem;
+ 	border-radius: 0.45rem;
+ 	border: none;
+ }
+ button:hover{
+ 	opacity: 0.5;
+ 	color: #fff;
+ 	transition: all 0.5s ease-in-out;
+ }
+ #dummy-text{
+ 	line-height: 1.5;
+ 	margin-top: 2rem;
+ 	font-size: 0.85rem;
+ 	text-align: center; 	
+/* 	width: 27rem;*/
+ 	color: #6da5c0;
+ }
+ #article{
+ 	padding-bottom: 2rem;
+ }
+/*responsive*/
+@media screen and(min-width:992px){
+	.center{
+		width: 90vw;
+		
+	}
+}	
